@@ -62,12 +62,15 @@
 
         <section class="mb-8">
           <h2 class="text-2xl font-bold mb-4">6. 개인정보 보호책임자</h2>
-          <p class="text-gray-600">
+          <p class="text-gray-600 mb-4">
+            sou.zip은 개인정보 처리에 관한 업무를 총괄하고, 개인정보 처리와 관련한 이용자의 불만 처리 및 피해 구제 등을 위하여 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.
+          </p>
+          <!-- <p class="text-gray-600">
             문의사항이 있으시면 아래 연락처로 연락 주시기 바랍니다.
           </p>
           <div class="mt-4 p-4 bg-gray-50 rounded-lg">
             <p class="text-gray-700">이메일: privacy@souzip.com</p>
-          </div>
+          </div> -->
         </section>
 
         <section class="mb-8">
