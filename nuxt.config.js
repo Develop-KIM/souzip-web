@@ -24,8 +24,9 @@ export default defineNuxtConfig({
       },
       title: 'sou.zip - 여행 기념품 추천 플랫폼',
       meta: [
-        { name: 'description', content: '여행의 순간을 .zip으로, AI가 추천하는 여행 기념품' },
-        { name: 'keywords', content: '여행, 기념품, 선물, 추천, AI, 쇼핑, souzip' },
+        { name: 'description', content: '여행의 순간을 .zip으로, AI가 여행지별 맞춤 기념품을 추천해드립니다. 특별한 여행의 추억을 소중한 사람에게 선물하세요.' },
+        { name: 'keywords', content: '여행 기념품, 기념품 추천, 여행 선물, AI 추천, 맞춤 선물, 해외 쇼핑, souzip, 여행 쇼핑' },
+        { name: 'author', content: 'sou.zip' },
         { property: 'og:title', content: 'sou.zip - 여행 기념품 추천 플랫폼' },
         { property: 'og:description', content: '여행의 순간을 .zip으로, AI가 추천하는 여행 기념품' },
         { property: 'og:type', content: 'website' },

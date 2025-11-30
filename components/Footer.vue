@@ -30,7 +30,7 @@
           
           <div class="flex items-center gap-3">
             <a 
-              href="#" 
+              href="https://www.instagram.com/sou.zip_official/"
               class="w-10 h-10 bg-gray-100 hover:bg-gradient-to-br hover:from-purple-600 hover:via-pink-600 hover:to-orange-500 rounded-full flex items-center justify-center transition-all group"
               aria-label="Instagram"
             >
