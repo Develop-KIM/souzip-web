@@ -201,7 +201,7 @@ const submitWaitlist = async () => {
     })
     
     submitSuccess.value = true
-    submitMessage.value = '신청이 완료되었습니다! 출시 소식을 보내드릴게요. 🎉'
+    submitMessage.value = '신청이 완료되었습니다! 출시 소식을 보내드릴게요.'
     
     formData.value = { email: '', name: '', destination: '' }
     
