@@ -6,20 +6,24 @@
         <div class="absolute bottom-20 left-20 w-96 h-96 bg-amber-50 rounded-full blur-3xl opacity-40"></div>
       </div>
       
-      <div class="absolute top-32 left-8 md:left-40 w-20 h-20 md:w-32 md:h-32 character-walk-right">
-        <img src="../public/1.svg" alt="캐릭터 1" class="w-full h-full object-contain" />
-      </div>
-      
-      <div class="absolute top-48 right-8 md:right-40 w-16 h-16 md:w-28 md:h-28 character-walk-left" style="animation-delay: 0.5s">
-        <img src="../public/2.svg" alt="캐릭터 2" class="w-full h-full object-contain" />
-      </div>
-      
-      <div class="absolute bottom-40 left-8 md:left-40 w-24 h-24 md:w-36 md:h-36 character-walk-right" style="animation-delay: 1s">
-        <img src="../public/3.svg" alt="캐릭터 3" class="w-full h-full object-contain" />
-      </div>
-      
-      <div class="absolute bottom-32 right-8 md:right-40 w-20 h-20 md:w-32 md:h-32 character-walk-left" style="animation-delay: 1.5s">
-        <img src="../public/4.svg" alt="캐릭터 4" class="w-full h-full object-contain" />
+      <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+        <div class="relative w-full max-w-7xl h-full">
+          <div class="absolute top-32 left-8 md:left-20 w-20 h-20 md:w-32 md:h-32 character-walk-right">
+            <img src="../public/1.svg" alt="캐릭터 1" class="w-full h-full object-contain" />
+          </div>
+          
+          <div class="absolute top-48 right-8 md:right-20 w-16 h-16 md:w-28 md:h-28 character-walk-left" style="animation-delay: 0.5s">
+            <img src="../public/2.svg" alt="캐릭터 2" class="w-full h-full object-contain" />
+          </div>
+          
+          <div class="absolute bottom-40 left-8 md:left-20 w-24 h-24 md:w-36 md:h-36 character-walk-right" style="animation-delay: 1s">
+            <img src="../public/3.svg" alt="캐릭터 3" class="w-full h-full object-contain" />
+          </div>
+          
+          <div class="absolute bottom-32 right-8 md:right-20 w-20 h-20 md:w-32 md:h-32 character-walk-left" style="animation-delay: 1.5s">
+            <img src="../public/4.svg" alt="캐릭터 4" class="w-full h-full object-contain" />
+          </div>
+        </div>
       </div>
       
       <div class="max-w-6xl mx-auto text-center">
