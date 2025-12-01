@@ -28,7 +28,7 @@
       
       <div class="max-w-6xl mx-auto text-center">
         <div class="mb-8">
-          <h1 class="text-4xl md:text-8xl font-bold tracking-tight text-gray-900">
+          <h1 class="text-3xl md:text-8xl font-bold tracking-tight text-gray-900">
             여행 기념품 정보는 <span class="text-yellow-400">수집</span>에서!
           </h1>
         </div>
