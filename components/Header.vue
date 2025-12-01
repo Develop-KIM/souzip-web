@@ -1,10 +1,14 @@
 <template>
   <header class="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md border-b border-gray-200 z-50">
     <nav class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-      <NuxtLink to="/" class="text-2xl font-bold text-gray-900 hover:text-gray-700 transition-colors">
-        sou.zip
+      <NuxtLink to="/" class="hover:opacity-80 transition-opacity">
+        <img
+          src="../public/sou.zip.png"
+          alt="sou.zip"
+          class="h-10 md:h-12 w-auto"
+        />
       </NuxtLink>
-
+      
       <div class="hidden md:flex items-center gap-8">
         <a href="/#features" class="text-gray-600 hover:text-gray-900 transition-colors">
           기능
@@ -16,9 +20,9 @@
           사전등록
         </a> -->
       </div>
-
-      <button 
-        class="md:hidden p-2 hover:bg-gray-100 rounded-lg transition-colors" 
+      
+      <button
+        class="md:hidden p-2 hover:bg-gray-100 rounded-lg transition-colors"
         @click="mobileMenuOpen = !mobileMenuOpen"
         aria-label="메뉴"
       >
@@ -30,7 +34,7 @@
         </svg>
       </button>
     </nav>
-
+    
     <transition
       enter-active-class="transition ease-out duration-200"
       enter-from-class="opacity-0 -translate-y-1"
@@ -41,22 +45,22 @@
     >
       <div v-if="mobileMenuOpen" class="md:hidden border-t border-gray-200 bg-white">
         <div class="px-4 py-4 space-y-4">
-          <a 
-            href="/#features" 
+          <a
+            href="/#features"
             class="block text-gray-600 hover:text-gray-900 py-2"
             @click="mobileMenuOpen = false"
           >
             기능
           </a>
-          <!-- <a 
-            href="/#download" 
+          <!-- <a
+            href="/#download"
             class="block text-gray-600 hover:text-gray-900 py-2"
             @click="mobileMenuOpen = false"
           >
             다운로드
           </a>
-          <a 
-            href="/#download" 
+          <a
+            href="/#download"
             class="block w-full px-6 py-3 bg-gray-900 text-white rounded-full text-sm font-medium hover:bg-gray-800 transition-all text-center"
             @click="mobileMenuOpen = false"
           >

@@ -3,12 +3,16 @@
     <div class="max-w-6xl mx-auto">
       <div class="flex flex-col md:flex-row justify-between gap-8 md:gap-12 mb-8 md:mb-12">
         <div>
-          <h3 class="text-2xl font-bold text-gray-900 mb-3">sou.zip</h3>
+          <img
+            src="../public/sou.zip.png"
+            alt="sou.zip"
+            class="h-12 md:h-12 w-auto mb-3"
+          />
           <p class="text-gray-600 text-sm leading-relaxed">
             여행의 순간을 .zip으로
           </p>
         </div>
-
+        
         <div>
           <h4 class="font-semibold text-gray-900 mb-4">정보</h4>
           <div class="space-y-3 text-sm">
@@ -21,7 +25,7 @@
           </div>
         </div>
       </div>
-
+      
       <div class="pt-6 md:pt-8 border-t border-gray-200">
         <div class="flex flex-row justify-between items-center">
           <p class="text-xs md:text-sm text-gray-500">
@@ -29,7 +33,7 @@
           </p>
           
           <div class="flex items-center gap-3">
-            <a 
+            <a
               href="https://www.instagram.com/sou.zip_official/"
               class="w-10 h-10 bg-gray-100 hover:bg-gradient-to-br hover:from-purple-600 hover:via-pink-600 hover:to-orange-500 rounded-full flex items-center justify-center transition-all group"
               aria-label="Instagram"
