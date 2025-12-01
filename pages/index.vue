@@ -6,19 +6,20 @@
         <div class="absolute bottom-20 left-20 w-96 h-96 bg-purple-50 rounded-full blur-3xl opacity-40"></div>
       </div>
       
-      <div class="absolute top-32 left-20 w-32 h-32 md:w-40 md:h-40 character-float">
+      <!-- Characters -->
+      <div class="absolute top-32 left-8 md:left-40 w-20 h-20 md:w-32 md:h-32 character-walk-right">
         <img src="../public/1.svg" alt="캐릭터 1" class="w-full h-full object-contain" />
       </div>
       
-      <div class="absolute top-48 right-32 w-28 h-28 md:w-36 md:h-36 character-float" style="animation-delay: 0.5s">
+      <div class="absolute top-48 right-8 md:right-40 w-16 h-16 md:w-28 md:h-28 character-walk-left" style="animation-delay: 0.5s">
         <img src="../public/2.svg" alt="캐릭터 2" class="w-full h-full object-contain" />
       </div>
       
-      <div class="absolute bottom-40 left-32 w-36 h-36 md:w-44 md:h-44 character-float" style="animation-delay: 1s">
+      <div class="absolute bottom-40 left-8 md:left-40 w-24 h-24 md:w-36 md:h-36 character-walk-right" style="animation-delay: 1s">
         <img src="../public/3.svg" alt="캐릭터 3" class="w-full h-full object-contain" />
       </div>
       
-      <div class="absolute bottom-32 right-20 w-32 h-32 md:w-40 md:h-40 character-float" style="animation-delay: 1.5s">
+      <div class="absolute bottom-32 right-8 md:right-40 w-20 h-20 md:w-32 md:h-32 character-walk-left" style="animation-delay: 1.5s">
         <img src="../public/4.svg" alt="캐릭터 4" class="w-full h-full object-contain" />
       </div>
       
@@ -272,40 +273,46 @@ onUnmounted(() => {
   opacity: 0;
 }
 
-.character-float {
-  animation: float 3s ease-in-out infinite;
+.character-walk-right {
+  animation: walk-right 8s ease-in-out infinite;
 }
 
-@keyframes float {
+.character-walk-left {
+  animation: walk-left 8s ease-in-out infinite;
+}
+
+@keyframes walk-right {
   0%, 100% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-20px);
-  }
-}
-
-.character-walk {
-  animation: walk 2s ease-in-out infinite;
-  display: inline-block;
-}
-
-@keyframes walk {
-  0%, 100% {
-    transform: translateY(0) rotate(-3deg);
+    transform: translateX(0) translateY(0) rotate(0deg);
   }
   25% {
-    transform: translateY(-15px) rotate(0deg);
+    transform: translateX(15px) translateY(-8px) rotate(3deg);
   }
   50% {
-    transform: translateY(0) rotate(3deg);
+    transform: translateX(30px) translateY(0) rotate(0deg);
   }
   75% {
-    transform: translateY(-15px) rotate(0deg);
+    transform: translateX(15px) translateY(-8px) rotate(-3deg);
   }
 }
 
-.character-walk:hover {
+@keyframes walk-left {
+  0%, 100% {
+    transform: translateX(0) translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateX(-15px) translateY(-8px) rotate(-3deg);
+  }
+  50% {
+    transform: translateX(-30px) translateY(0) rotate(0deg);
+  }
+  75% {
+    transform: translateX(-15px) translateY(-8px) rotate(3deg);
+  }
+}
+
+.character-walk-right:hover,
+.character-walk-left:hover {
   animation-play-state: paused;
 }
 </style>
