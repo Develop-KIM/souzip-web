@@ -28,12 +28,12 @@
       
       <div class="max-w-6xl mx-auto text-center">
         <div class="mb-8">
-          <h1 class="text-3xl md:text-8xl font-bold tracking-tight text-gray-900">
+          <h1 class="text-3xl md:text-6xl font-bold tracking-tight text-gray-900">
             여행 기념품 정보는 <span class="text-yellow-400">수집</span>에서!
           </h1>
         </div>
         
-        <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+        <p class="text-1xl md:text-4xl text-gray-600 mb-8 max-w-2xl mx-auto">
           위치 기반 여행 기념품 모음집, <span class="text-yellow-400 font-semibold">sou.zip!</span>
         </p>
         
