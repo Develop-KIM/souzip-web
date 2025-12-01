@@ -79,7 +79,7 @@
             <h4 class="text-xl font-bold mb-3">기념품 추천</h4>
             <p class="text-gray-600">
               여행지와 취향에 맞는 <br />
-              완벽환 기념품을 찾아드려요
+              딱 맞는 기념품을 찾아드려요
             </p>
           </div>
           
