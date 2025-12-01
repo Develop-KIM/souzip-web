@@ -8,19 +8,19 @@
       
       <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
         <div class="relative w-full max-w-6xl h-full">
-          <div class="absolute top-16 left-8 md:left-20 w-20 h-20 md:w-32 md:h-32 character-walk-right">
+          <div class="absolute top-20 left-8 md:left-20 w-20 h-20 md:w-32 md:h-32 character-walk-right">
             <img src="../public/1.svg" alt="캐릭터 1" class="w-full h-full object-contain" />
           </div>
           
-          <div class="absolute top-20 right-8 md:right-20 w-16 h-16 md:w-28 md:h-28 character-walk-left" style="animation-delay: 0.5s">
+          <div class="absolute top-24 right-8 md:right-20 w-16 h-16 md:w-28 md:h-28 character-walk-left" style="animation-delay: 0.5s">
             <img src="../public/2.svg" alt="캐릭터 2" class="w-full h-full object-contain" />
           </div>
           
-          <div class="absolute bottom-28 left-8 md:left-20 w-20 h-20 md:w-36 md:h-36 character-walk-right" style="animation-delay: 1s">
+          <div class="absolute bottom-32 left-8 md:left-20 w-20 h-20 md:w-36 md:h-36 character-walk-right" style="animation-delay: 1s">
             <img src="../public/3.svg" alt="캐릭터 3" class="w-full h-full object-contain" />
           </div>
           
-          <div class="absolute bottom-24 right-8 md:right-20 w-20 h-20 md:w-32 md:h-32 character-walk-left" style="animation-delay: 1.5s">
+          <div class="absolute bottom-28 right-8 md:right-20 w-20 h-20 md:w-32 md:h-32 character-walk-left" style="animation-delay: 1.5s">
             <img src="../public/4.svg" alt="캐릭터 4" class="w-full h-full object-contain" />
           </div>
         </div>
