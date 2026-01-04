@@ -103,66 +103,66 @@
       </div>
     </section>
     
-    <section class="py-24 px-4 bg-white">
-      <div class="max-w-2xl mx-auto">
-        <div class="text-center mb-12">
-          <h3 class="text-3xl md:text-4xl font-bold mb-4">
-            출시 소식을<br />
-            <span class="text-yellow-400">가장 먼저 받아보세요</span>
-          </h3>
-          <p class="text-gray-600">
-            사전 신청하시면 특별 혜택과 함께 출시 소식을 보내드려요
-          </p>
-        </div>
-        
-        <div class="bg-yellow-50 rounded-3xl p-8 md:p-12">
-          <form @submit.prevent="submitWaitlist" class="space-y-6">
-            <div>
-              <label class="block text-sm font-medium text-gray-700 mb-2">이메일</label>
-              <input
-                v-model="formData.email"
-                type="email"
-                required
-                placeholder="your@email.com"
-                class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-yellow-400 focus:border-transparent outline-none bg-white"
-              />
-            </div>
-            
-            <div>
-              <label class="block text-sm font-medium text-gray-700 mb-2">이름 (선택)</label>
-              <input
-                v-model="formData.name"
-                type="text"
-                placeholder="수집팀 화이팅"
-                class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-yellow-400 focus:border-transparent outline-none bg-white"
-              />
-            </div>
-            
-            <div>
-              <label class="block text-sm font-medium text-gray-700 mb-2">관심 여행지 (선택)</label>
-              <input
-                v-model="formData.destination"
-                type="text"
-                placeholder="예: 일본, 파리, 뉴욕"
-                class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-yellow-400 focus:border-transparent outline-none bg-white"
-              />
-            </div>
-            
-            <button
-              type="submit"
-              :disabled="isSubmitting"
-              class="w-full py-4 bg-yellow-400 text-white font-semibold rounded-xl hover:bg-yellow-300 hover:shadow-lg transition-all disabled:opacity-50 text-lg"
-            >
-              {{ isSubmitting ? '제출 중...' : '사전 신청' }}
-            </button>
-          </form>
-          
-          <div v-if="submitMessage" class="mt-6 p-4 rounded-xl" :class="submitSuccess ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'">
-            {{ submitMessage }}
-          </div>
-        </div>
-      </div>
-    </section>
+<!--    <section class="py-24 px-4 bg-white">-->
+<!--      <div class="max-w-2xl mx-auto">-->
+<!--        <div class="text-center mb-12">-->
+<!--          <h3 class="text-3xl md:text-4xl font-bold mb-4">-->
+<!--            출시 소식을<br />-->
+<!--            <span class="text-yellow-400">가장 먼저 받아보세요</span>-->
+<!--          </h3>-->
+<!--          <p class="text-gray-600">-->
+<!--            사전 신청하시면 특별 혜택과 함께 출시 소식을 보내드려요-->
+<!--          </p>-->
+<!--        </div>-->
+<!--        -->
+<!--        <div class="bg-yellow-50 rounded-3xl p-8 md:p-12">-->
+<!--          <form @submit.prevent="submitWaitlist" class="space-y-6">-->
+<!--            <div>-->
+<!--              <label class="block text-sm font-medium text-gray-700 mb-2">이메일</label>-->
+<!--              <input-->
+<!--                v-model="formData.email"-->
+<!--                type="email"-->
+<!--                required-->
+<!--                placeholder="your@email.com"-->
+<!--                class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-yellow-400 focus:border-transparent outline-none bg-white"-->
+<!--              />-->
+<!--            </div>-->
+<!--            -->
+<!--            <div>-->
+<!--              <label class="block text-sm font-medium text-gray-700 mb-2">이름 (선택)</label>-->
+<!--              <input-->
+<!--                v-model="formData.name"-->
+<!--                type="text"-->
+<!--                placeholder="수집팀 화이팅"-->
+<!--                class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-yellow-400 focus:border-transparent outline-none bg-white"-->
+<!--              />-->
+<!--            </div>-->
+<!--            -->
+<!--            <div>-->
+<!--              <label class="block text-sm font-medium text-gray-700 mb-2">관심 여행지 (선택)</label>-->
+<!--              <input-->
+<!--                v-model="formData.destination"-->
+<!--                type="text"-->
+<!--                placeholder="예: 일본, 파리, 뉴욕"-->
+<!--                class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-yellow-400 focus:border-transparent outline-none bg-white"-->
+<!--              />-->
+<!--            </div>-->
+<!--            -->
+<!--            <button-->
+<!--              type="submit"-->
+<!--              :disabled="isSubmitting"-->
+<!--              class="w-full py-4 bg-yellow-400 text-white font-semibold rounded-xl hover:bg-yellow-300 hover:shadow-lg transition-all disabled:opacity-50 text-lg"-->
+<!--            >-->
+<!--              {{ isSubmitting ? '제출 중...' : '사전 신청' }}-->
+<!--            </button>-->
+<!--          </form>-->
+<!--          -->
+<!--          <div v-if="submitMessage" class="mt-6 p-4 rounded-xl" :class="submitSuccess ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'">-->
+<!--            {{ submitMessage }}-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </section>-->
     
     <div class="fixed bottom-0 left-0 right-0 flex justify-center pointer-events-none z-50 px-4 xl:px-0">
       <div class="max-w-6xl w-full">
